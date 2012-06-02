@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/caliph-emir/!svn/ver/90/liredemo/src/liredemo/flickr
+END
+FlickrPhoto.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/caliph-emir/!svn/ver/17/liredemo/src/liredemo/flickr/FlickrPhoto.java
+END
+FlickrDownloadThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/caliph-emir/!svn/ver/55/liredemo/src/liredemo/flickr/FlickrDownloadThread.java
+END
+FlickrPhotoGrabber.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/caliph-emir/!svn/ver/17/liredemo/src/liredemo/flickr/FlickrPhotoGrabber.java
+END
+FlickrIndexingThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/caliph-emir/!svn/ver/90/liredemo/src/liredemo/flickr/FlickrIndexingThread.java
+END

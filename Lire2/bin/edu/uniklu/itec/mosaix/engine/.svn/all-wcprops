@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/caliph-emir/!svn/ver/86/liredemo/src/edu/uniklu/itec/mosaix/engine
+END
+Logging.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/caliph-emir/!svn/ver/3/liredemo/src/edu/uniklu/itec/mosaix/engine/Logging.java
+END
+WeightingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/caliph-emir/!svn/ver/3/liredemo/src/edu/uniklu/itec/mosaix/engine/WeightingStrategy.java
+END
+RandomWeightingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/caliph-emir/!svn/ver/3/liredemo/src/edu/uniklu/itec/mosaix/engine/RandomWeightingStrategy.java
+END
+SimpleWeightingDataFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/caliph-emir/!svn/ver/86/liredemo/src/edu/uniklu/itec/mosaix/engine/SimpleWeightingDataFactory.java
+END
+EngineObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/caliph-emir/!svn/ver/3/liredemo/src/edu/uniklu/itec/mosaix/engine/EngineObserver.java
+END
+Experimental.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/caliph-emir/!svn/ver/3/liredemo/src/edu/uniklu/itec/mosaix/engine/Experimental.java
+END
+LeastUsedWeightingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/caliph-emir/!svn/ver/3/liredemo/src/edu/uniklu/itec/mosaix/engine/LeastUsedWeightingStrategy.java
+END
+WeightingDataFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/caliph-emir/!svn/ver/3/liredemo/src/edu/uniklu/itec/mosaix/engine/WeightingDataFactory.java
+END
+WeightingData.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/caliph-emir/!svn/ver/3/liredemo/src/edu/uniklu/itec/mosaix/engine/WeightingData.java
+END
+ProportionWeightingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/caliph-emir/!svn/ver/3/liredemo/src/edu/uniklu/itec/mosaix/engine/ProportionWeightingStrategy.java
+END
+Engine.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/caliph-emir/!svn/ver/86/liredemo/src/edu/uniklu/itec/mosaix/engine/Engine.java
+END
+SimpleWeightingData.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/caliph-emir/!svn/ver/3/liredemo/src/edu/uniklu/itec/mosaix/engine/SimpleWeightingData.java
+END
