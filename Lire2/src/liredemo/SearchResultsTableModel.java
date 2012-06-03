@@ -147,16 +147,16 @@ public class SearchResultsTableModel extends DefaultTableModel {
 	 * @throws IOException 
 	 */
 	public void setHits(ImageSearchHits hits, JProgressBar progress, String groupName) {
-		/*BufferedWriter out = null;
-		FileWriter fstream;*/
+		BufferedWriter out = null;
+		FileWriter fstream;
 		float relevCount = (float) 0;
 		
 		this.hits = hits;
 		icons = new ArrayList<ImageIcon>(hits.length());
 		if (progress != null) progress.setString("Searching finished. Loading images for result list.");
 		try {
-			/*fstream = new FileWriter("searchResults_" + getDateTime() + ".txt");
-			out = new BufferedWriter(fstream);*/
+			fstream = new FileWriter("searchResults_" + getDateTime() + ".txt");
+			out = new BufferedWriter(fstream);
 			for (int i = 0; i < hits.length(); i++) {
 				ImageIcon icon = null;
 				try {
@@ -171,8 +171,8 @@ public class SearchResultsTableModel extends DefaultTableModel {
 								//System.out.println("relevance is: " + relevCount);
 							}
 						}
-						/*if(out != null)
-							out.write(fileIdentifier + "\n");*/
+						if(out != null)
+							out.write(fileIdentifier + "\n");
 						if (fileIdentifier.toLowerCase().endsWith(".jpg")) {
 							Metadata metadata = new ExifReader(new FileInputStream(fileIdentifier)).extract();
 							if (metadata.containsDirectory(ExifDirectory.class)) {
@@ -196,8 +196,8 @@ public class SearchResultsTableModel extends DefaultTableModel {
 				icons.add(icon);				
 			}
 			System.out.println("Hits is: " + hits.length() + "\n Precision = " + Float.toString(relevCount/hits.length()));
-			/*if(out != null)
-				out.close();*/
+			if(out != null)
+				out.close();
 			if (progress != null) progress.setValue(100);
 			fireTableDataChanged();
 		}catch (Exception e) {
